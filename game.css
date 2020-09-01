@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(230, 203, 203);
+}
+.intro {
+    background-color:brown;
+    text-align: center;
+    padding: 20px;
+    font-size: 3rem;
+}
+.choice {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+#compC {
+    margin-right: 60px;
+    font-size: 20px;
+}
+#userC{
+    margin-left: 70px;
+    font-size: 20px;
+}
+.compC p{
+    text-align: center;
+}
+.userC p{
+    text-align: center;
+}
+#computer-choice {
+    text-align: center;
+}
+#user-choice {
+    text-align: center;
+}
+
+.answer {
+    text-align: center;
+    font-size: 2rem;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.button {
+    display: flex;
+    justify-content: space-evenly;
+}
+.choices {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.choices:hover {
+    background-color: green;
+}
+#rock {
+    margin-left: -40px;
+}
+#scissors {
+    margin-right: -50px;
+}
+.choose {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+}
